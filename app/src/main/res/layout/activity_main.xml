@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlueBackground"
+    android:backgroundTint="@color/lightBlueBackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Input Form:"
+        android:textColor="@color/blueText"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_view_name_Input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Name"
+            android:textColor="@color/blueText" />
+
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Type Your Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_view_address_Input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Address"
+            android:textColor="@color/blueText" />
+
+        <EditText
+            android:id="@+id/edit_text_address"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Type Your Address" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_view_profession_Input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Profession"
+            android:textColor="@color/blueText" />
+
+        <EditText
+            android:id="@+id/edit_text_profession"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Past or current job" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_view_job_Input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Your Dream Job"
+            android:textColor="@color/blueText" />
+
+        <EditText
+            android:id="@+id/edit_text_job"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Type here" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_view_food_Input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Favorite Food"
+            android:textColor="@color/blueText" />
+
+        <EditText
+            android:id="@+id/edit_text_food"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Type here" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:text="Submit" />
+</LinearLayout>
